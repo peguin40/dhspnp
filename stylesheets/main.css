@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Font1;
+    src: url(sansation_light.woff);
+}
+head{
+	font-family: Verdana, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+}
+html{
+	height:100%;
+}
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+}
+#post{
+	font-family: Verdana, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	margin-left:20%;
+	margin-right:20%;
+	padding:10px 10px;
+	border-right:1px solid #929698;
+	border-left:1px solid #929698;
+	border-bottom:1px solid #929698;
+}
+#posts{
+	font-family: Verdana, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	margin-left:20%;
+	margin-right:20%;
+	padding:10px 10px;
+	padding-bottom:60%;
+	height:100%;
+	border-right:1px solid #929698;
+	border-left:1px solid #929698;	
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow:hidden;
+	background-color:#9C27B0;
+}
+li{
+	display: inline;
+	float:left;
+	color: white;
+	background-color:#9C27B0;
+	text-align:centre;
+	border-left: 1px solid #FFFFFF;
+}
+li:first-child {
+    border-left: none;
+}
+li a {
+    display: block;
+    padding: 14px 16px;
+	color:white;
+    background-color: #9C27B0;
+	text-decoration: none;
+	text-align:centre;
+}
+li a:hover {
+    background-color: #7B1FA2;
+}
+p {
+    line-height: 1.5;
+}
+p{
+	border-bottom:1px solid #929698;
+	padding:12px;
+}
